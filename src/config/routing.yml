@@ -1,0 +1,10 @@
+validate:
+    resource: "@ValidateBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+acme_validate:
+    resource: "@AcmeValidateBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
